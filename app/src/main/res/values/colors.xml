@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8CC331</color>
+    <color name="colorPrimaryDark">#8CC331</color>
+    <color name="colorAccent">#8CC331</color>
+    <color name="tile_color">#ffffff</color>
+    <color name="grey">#d6d6d6</color>
+    <color name="dark_green">#04691f</color>
+</resources>

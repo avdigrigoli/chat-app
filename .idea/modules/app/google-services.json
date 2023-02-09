@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "93421072468",
+    "firebase_url": "https://mantis-chat-53a3a.firebaseio.com",
+    "project_id": "mantis-chat-53a3a",
+    "storage_bucket": "mantis-chat-53a3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93421072468:android:19cf2a8cf4e8fb9801fdc1",
+        "android_client_info": {
+          "package_name": "net.whispwriting.mantischat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93421072468-64i09pa1o0csqf5ss1rdaf5lg10ut7gu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.whispwriting.mantischat",
+            "certificate_hash": "1e02bacee1ce599ff8865f99390650919ddab2c1"
+          }
+        },
+        {
+          "client_id": "93421072468-4l37elfp4kpub613om0fjmpb36ien8gp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0L8b3dMs_P4SLYyffhbmops4JCxA10Sg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93421072468-4l37elfp4kpub613om0fjmpb36ien8gp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

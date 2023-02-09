@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "791077161686",
+    "firebase_url": "https://mantis-chat.firebaseio.com",
+    "project_id": "mantis-chat",
+    "storage_bucket": "mantis-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791077161686:android:b908192ab7472ab2309777",
+        "android_client_info": {
+          "package_name": "net.whispwriting.mantischat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791077161686-ebg2k8vgotf8e6vd5ogv383r1jrrejkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl0KLt48uolephV2FkC-S38VAWMhXACFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791077161686-ebg2k8vgotf8e6vd5ogv383r1jrrejkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791077161686:android:112e7743f751151b309777",
+        "android_client_info": {
+          "package_name": "net.whispwriting.whispwriting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791077161686-ebg2k8vgotf8e6vd5ogv383r1jrrejkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl0KLt48uolephV2FkC-S38VAWMhXACFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791077161686-ebg2k8vgotf8e6vd5ogv383r1jrrejkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

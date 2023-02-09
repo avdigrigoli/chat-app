@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image_message"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        tools:src="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/profile_image_message"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@id/profile_image_message"
+        android:background="@drawable/message_background"
+        android:padding="15dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="TextView"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/sentMessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/current_message_background"
+        android:textColor="@android:color/white"
+        android:padding="15dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="TextView"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/receivedImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageText"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@id/profile_image_message"
+        android:maxHeight="50dp"
+        android:maxWidth="50dp"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/sentImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sentMessageText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:maxHeight="50dp"
+        android:maxWidth="50dp"
+        android:scaleType="centerCrop" />
+
+</RelativeLayout>
